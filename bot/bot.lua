@@ -64,7 +64,7 @@ function whoami()
 	end
   print('>> Download Path = '..tcpath)
 end
-
+@iNtR0Team
 function match_plugins(msg)
 	for name, plugin in pairs(plugins) do
 		match_plugin(plugin, name, msg)
